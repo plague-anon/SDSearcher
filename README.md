@@ -1,7 +1,7 @@
 # TLDSearcher
 > This Python tool searches for subdomains on a given target domain.
 
-You supply a domain to target (google.com) and then some options regarding the wordlists, or crunch parameters, then the program will try each possibility against the domain. 
+You supply a target domain name such as google.com and then using the -s flag, you supply a subdomain to check. The program will then see if the subdomain.domain exists.
 
 ## Installation
 ```
@@ -26,7 +26,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 
 ## Release History
-* 0.0.1
+* 0.1.0
     * Initial commit.
 
 ## Meta
